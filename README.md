@@ -3,6 +3,7 @@
 </div>
 <div align="center">
   <h3 style="font-size: 22px"><b>Dotnet Boilerplate</b></h3>
+  <p>A boilerplate created using dotnet and entity framework</p>
 </div>
 
 ---
