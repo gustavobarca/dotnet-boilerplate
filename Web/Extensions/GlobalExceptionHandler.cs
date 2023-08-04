@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Diagnostics;
 using Newtonsoft.Json;
 using System.Net;
 
-namespace DotnetBoilerplate.Extensions;
+namespace Web;
 
 public static class GlobalExceptionHandlers
 {

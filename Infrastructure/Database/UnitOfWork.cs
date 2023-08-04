@@ -24,7 +24,7 @@ public class UnitOfWork : IUnitOfWork
 
     public void Dispose()
     {
-        if (_context != null) _context.Dispose(); 
+        _context?.Dispose(); 
         GC.SuppressFinalize(this);
     }
 }

@@ -2,7 +2,7 @@ namespace Domain.Common;
 
 public class AggregateRoot : Entity
 {
-    public IEnumerable<DomainEvent> Events;
+    public List<DomainEvent> Events;
 
     public AggregateRoot()
     {
@@ -11,6 +11,6 @@ public class AggregateRoot : Entity
 
     public void AddEvent(DomainEvent domainEvent)
     {
-        Events.Append(domainEvent);
+        Events.Add(domainEvent);
     }
 }

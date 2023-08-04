@@ -3,5 +3,6 @@
     "*/bin/": true,
     "*/obj/": true,
   },
-  "editor.tabSize": 4
+  "editor.tabSize": 4,
+  "dotnet.defaultSolution": "dotnet-boilerplate.sln"
 }
